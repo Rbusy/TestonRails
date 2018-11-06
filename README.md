@@ -1,24 +1,15 @@
-# README
+# PrivateClubWebsite
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This exercise has been made by myself and the support of my team (THP-Nice) in order to pratice MVC in Ruby on Rails and passing Tests via minitest. 
+This exercise has been made with Postgresql and has been published on Heroku.
 
-Things you may want to cover:
+Please, after cloning the repo, make a bundle install inside the folder, and a rails db:migrate then. 
 
-* Ruby version
+The aim of this website is to train about CRUD ( Create, Read, Update, Delete ) ,MVC in ruby on rails and TDD test.
+This website allows the user to view gossips, create new gossips, edit and delete gossip, and also comment gossips.
 
-* System dependencies
+Dont forget to sign up in order to get more contents !
 
-* Configuration
+Heroku Link : https://privateclub.herokuapp.com/
+Enjoy !
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

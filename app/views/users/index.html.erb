@@ -1,0 +1,17 @@
+<%if logged_in?%>
+  <% @user.each do |user| %>
+  <div class="card-box">
+    <div class="card border-light mb-3" style="max-width: 12rem;">
+      <div class="card-header"> User n°<%=user.id%></a></div>
+      <div class="card-body">
+        <h5 class="card-title"><%= user.first_name  %> <%= user.last_name %></h5>
+        <p class="card-text"><%= user.email %></p>
+      </div>
+    </div>
+  </div>
+  <% end %>
+  <%else%>
+    <p> Nice try ! You need to be logged in to see this page !</p>
+    <%= link_to "Sign up", '/users/new', class: "btn btn-lg btn-primary" %>
+    <%= link_to "Log in", '/sessions/new', class: "btn btn-lg btn-primary" %>
+<% end %>
